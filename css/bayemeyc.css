@@ -1,0 +1,773 @@
+/* FACEBOOK MESENGER BUBLE */
+/* The following is to move the chat bubble */
+.fb_dialog_content > iframe {
+    bottom: 40pt !important;
+  }
+  
+  /* The following is to move the chat box, on display and on hide */
+  iframe.fb_customer_chat_bounce_in_v2 {
+    bottom: 65pt !important;
+  }
+  
+  iframe.fb_customer_chat_bounce_out_v2 {
+    bottom: 65pt !important;
+  }
+  /* FACEBOOK MESENGER BUBLE END*/
+  
+  /* URUN SAYFASINA YERLESTIRILEN VIDEO */
+  .wp-video{
+      width:100% !important;
+      
+  }
+  /* URUN SAYFASINA YERLESTIRILEN VIDEO */
+  .wp-video .wp-video-shortcode{
+      width:100% !important
+  } 
+  
+  
+      .site-header .menu-extra .menu-item-account {
+      transform: translateY(1px);
+  }
+  
+  /* Mağaza Sayfası MesajBox */
+  #specmes {
+       border: 1px solid black;
+       border-radius: 2px;
+  }
+  
+  /* Mağaza Sayfası MesajBox */
+  #specmes p,
+  {
+      color: black;
+  }
+  
+          /* ÖDEME SAYFASI KİSİSEL VERİ METNİ */
+      #payment .woocommerce-privacy-policy-text p{
+          padding-bottom:5px !important;
+          border-bottom:1px solid #ebebe0;
+          margin-bottom:30px !important;
+      }
+      
+  @media (min-width:480px) and (max-width:1060px) {
+      #specmes{
+          margin-top: 1.5rem;
+                  padding: 0.6rem 0.6rem 0.6rem 4rem;
+      }
+      #specmes p{
+          font-size: 10px !important;
+      }
+  }
+  
+  @media (max-width: 480px) {
+          #specmes{
+          margin-top: 1.5rem;
+                  padding: 0.6rem 0.6rem 0.6rem 4rem;
+      }
+      #specmes p{
+          font-size: 9px !important;
+      }
+  
+  }
+  
+  
+  
+  /* KATEGORI ISIMLERI */
+  #content #page-header-catalog .page-header-title h1{
+      font-size:25px;
+  }
+  /* KATEGORI ISIMLERI */
+  #content #page-header-catalog .breadcrumbs{
+      font-size:11px;
+  }
+  
+  /* HAKKIMIZDA BÖLÜMÜ */
+  #customheader{
+      transform:translateY(-40px);
+      padding-bottom:7px;
+      border-bottom:1px solid #ebebe0;
+  
+  }
+  
+  
+  
+  .noned{
+      display:none;
+      background-color: white;
+      width: 60px;
+      float: left;
+      position: absolute;
+      text-align: center;
+      right: -7px;
+      top: 25px;
+      border-radius:2px;
+  }
+  
+  .noned li{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+      
+  
+  ul.quadron > li{
+      height: 25px;
+  }
+  
+  
+   
+  #selectlang{
+     position:absolute;
+     top:10px;
+     right:10px;
+     color:White;
+     z-index:999 !important;
+  }
+  
+  @media (max-width:768px) {
+      #selectlang{
+     position:absolute;
+     top:2px !important;
+     right:10px;
+  }
+      .un-product-details a,
+      .un-product-details bdi
+      {
+          font-size: 12px;
+      }
+  }
+  
+  @media (max-width:480px) {
+      #selectlang{
+     position:absolute;
+     top:2px !important;
+     right:10px;
+     z-index:999;
+  }
+          .un-product-details a,
+      .un-product-details bdi
+      {
+          font-size: 11px;
+      }
+  }
+  
+  .header-transparent .site-header{
+      z-index: 2;
+  }
+  
+  .quadron{
+      z-index:5;
+  }
+  
+  ul.quadron > li:hover ul{
+      display:block;
+  }
+  
+  .quadron a{
+     color:black;
+  }
+  
+  /* ACCOUNT BUTON ÜSTTE GÖRÜNMESİ */
+  .extra-menu-item.menu-item-account {
+      z-index:999;
+  }
+  
+  .vc_message_box-square p{
+      margin:0;
+  
+  }
+  
+  #menu-main-menu li a{
+      font-size: 11px
+  }
+  #menu-main-menu li{
+      padding: 0 11px;
+  }
+  
+  .site-header .site-logo{
+      margin: 0 !important;
+  }
+  
+  .site-header .menu-nav{
+      justify-content: flex-end;
+  }
+  
+  .site-header .menu-extra .menu-item-wishlist{
+      transform: translateY(1px);
+  }
+  
+  
+  @media (min-width:768px) and (max-width:1920px){
+      .header-layout-1 .site-header .menu-logo{
+          width: 200px !important;
+      }
+      .site-header .menu-extra .menu-item-account {
+      transform: translateY(2px);
+  }
+  }
+  
+  /* SİPARİS TAKİP KISMINDAKİ YORUMU ALANINI KAPATMAK */
+  #comments #respond{
+      display:none !important;
+  }
+  
+  /* MAĞAZA SAYFASI BANNER */
+  .woocommerce .content-area .page-description {
+      padding-bottom: 30px !important;
+  }
+  
+  
+  
+  /* MAĞAZA SAYFASI SLIDER */
+  #rev_slider_19_1{
+      border: 1px solid black;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+  }
+  
+  @media (min-width:768px) {
+      #rev_slider_19_1 {
+              transform: translateY(-40px);
+      }
+      .woocommerce .content-area .page-description {
+      padding-bottom: 25px !important;
+  }
+  }
+  
+  /* SİPARİS TAKİP SONUCU YAZI STİLİ */
+  .woocommerce .order-status,
+  .woocommerce .order-number,
+  .woocommerce .order-date,
+  .woocommerce .order-info
+  {
+      background: #ffe6e6 !important;
+      text-align: center !important;
+      font-weight: bold !important;
+  }
+  
+  /* FOOTER BORDER */
+  #colophon{
+      border-top: 1px solid black;
+      background-color:#fff5f5;
+  }
+  
+  /* RECENTLY PRODUCT AYAR */
+  .mf-recently-products{
+      background: #fff5f5;
+      margin-bottom: 90px;
+  }
+  
+  /* RECENTLY PRODUCT AYAR */
+  .mf-recently-products .product-list{
+      border-radius: 5px;
+  }
+  
+  /* POPUP AYARLARI */
+  div[id*="popmake-"] {
+      border: 5px solid black !important;
+      padding: 0px !important;
+      width:448px !important;
+      height:448px !important;
+      border-color: #ffbb99 !important;
+  }
+  
+  /* POPUP OVERLAY RENK */
+  .pum-theme-4856, .pum-theme-lightbox{
+      background-color: rgba(0,0,0, 0.35);
+  }
+      
+      #masthead {
+          padding: 0 !important;
+  
+      }
+  
+  /* POPUP CLOSE BUTTON */
+  .popmake-close{
+      font-size: 16px !important;
+      background-color:#ffbb99
+   !important;
+      color: black !important;
+      border-color: black !important;
+  }
+  
+  /* PRODUCT SAYFASI GIF AYARI */
+  #giffy{
+      display:flex;
+  
+  }
+  /* PRODUCT SAYFASI GIF AYARI */
+  #giffy img{
+      margin: 0 auto;
+  }
+  
+  
+  /* PRODUCT SAYFASI GIF AYARI */
+  #giffy{
+      display:flex; 
+  }
+  /* PRODUCT SAYFASI GIF AYARI */
+  #giffy img{
+      margin: 0 auto;
+  }
+  
+  /* PRODUCT YAZI AYARLARI */
+  div[id*="product-"] h5{
+      background-color: #fff5f5;
+  }
+  /* PRODUCT YAZI AYARLARI */
+  div[id*="product-"] h5 + ul{
+      border:1px solid #fff5f5;
+  }
+  
+  /* PRODUCT SAYFASI DESCRIPTION AYARI */
+  div[id*="product-"] .tabs li a {
+      text-align:center;
+  }
+  
+  /* PRODUCT SAYFASI FOOTER BOSLUGU */
+  .single-product.add-to-cart-sticky .site{
+      padding-bottom:0 !important;
+  }
+  
+  /* PRODUCT SAYFASI SOSYAL MEDYA */
+  div[id*="product-"] .supro-social-share {
+      text-align:center;
+      transform:translateY(25px);
+  }
+  
+  /* PRODUCT SAYFASI SOSYAL MEDYA ICON */
+  div[id*="product-"] .supro-social-share li a i {
+      padding:0.7rem;
+      font-size:26px;
+      display:inline-block;
+      border: 1px solid black;
+      width: 60px;
+      border-radius: 50px;
+  }
+  
+  /* HAKKIMIZDA SLIDER STİL */
+  #rev_slider_16_1 {
+      border: 1px solid black;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  
+  /* FOOTER SOSYAL MEDYA LISTESI */
+  .social-spec ul {
+      display:flex;
+  }
+  
+  /* FOOTER SOSYAL MEDYA LISTE STILI */
+  .social-spec ul li a {
+      padding: 0.8rem;
+      display:inline-block;
+      margin:0 5px;
+  
+  }
+  /* FOOTER SOSYAL MEDYA GÖRSEL AYARI */
+  .social-spec ul li a img{
+      width:35px;
+      border:1px solid black;
+      border-radius: 50%;
+  }
+  /* INDIRIM BADGE AYARI */
+      .ribbons .onsale.ribbon{
+          padding:1px 16px !important;
+  }
+  
+      
+  del[aria-hidden="true"] bdi,
+  del[aria-hidden="true"]
+  {
+      color: #6b6b47 !important;
+  }
+  /* HAKKIMIZDA GÖRSEL */
+  #aboutimg{
+      transform:translateY(-32px);
+      width:768px;
+  }
+  
+  /* SEARCH MODALI KATEGORİ GİZLEMEK */
+  #search-modal .product-cats{
+      display:none;
+  }
+  
+  /* SEARCH MODALI TEXTAREA KONUM AYARI */
+  #search-modal .search-fields{
+      transform:translateY(150px);
+  }
+  
+  
+  /* TASARIMCIMIZ MEHTAP SAYFASI GÖRSEL BORDER */
+  #hakkimizdaimg{
+      border: 1px solid pink;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  
+  /* FAVORİLERİM BÖLÜMÜ BASLIK*/
+  #yith-wcwl-form h2{
+      font-size:18px;
+      background-color: #ffe6e6;
+      text-align:center;
+  }
+  
+  /* FAVORİLERİM BÖLÜMÜ FLEX*/
+  #yith-wcwl-form .wishlist-title
+  {
+      display:none !important; 
+  }
+  
+  /* FAVORİLERİM BÖLÜMÜ FLEX*/
+  .wishlist-title
+  {
+      display:flex;
+      flex-direction:column;
+  }
+  /* FAVORİLERİM BÖLÜMÜ BUTTON */
+  .wishlist-title a.button{
+      width:50%;
+      align-self:center;
+      margin-top:8px;
+  }
+  
+  /* FAVORİLERİM BÖLÜMÜ P*/
+  #post-55 .wpb_wrapper > p{
+      display:none;
+  }
+  
+  /* CART SAYFASI PROCEED KISMI */
+  @media (min-width:768px) {
+  .cart-collaterals{
+      transform:translateY(90px);
+  }
+  /* FAVORİLERİM BÖLÜMÜ MOBİLDE VE TABLETTE BUTTON BORDER*/
+  #post-55 form .actions .product-add-to-cart a{
+      border:1px solid black;
+  }
+  /* ÜRÜN KATEGORİ SAYFASI FİLTRELER KISMI BOYUTLANDIRMA */
+  .shop-toolbar .woocommerce-ordering li > ul {
+          width:260px !important;
+  }
+  
+  }
+  
+  @media (max-width: 1199px) {
+      /* SITE LOGO BOYUTUNU SINIRLAMA */
+  .header-layout-1 .site-header .menu-logo{
+      width: 200px;
+      }
+      /* FOOTER SOSYAL MEDYA COPYRIGHT DUZENİ TABLET */
+       .footer-copyright-row .footer-1{
+          transform:translateY(54px);
+      }
+      /* FOOTER SOSYAL MEDYA COPYRIGHT DUZENİ TABLET */
+       .footer-copyright-row .footer-2{
+          transform:translateY(-37px);
+      }
+      /* FOOTER SOSYAL MEDYA GÖRSEL AYARI */
+  .social-spec ul li a img{
+      width:30px;
+      border:1px solid black;
+      border-radius: 50%;
+  }
+  
+  }
+  
+  @media (max-width:768px){
+      
+      /* FAVORİLER ADD TO CART BUTON YAPIMI */
+      #post-55 form .actions .product-add-to-cart a{
+          border: 1px solid black;
+      }
+      
+      
+      /* TABLET LOGO HIZALAMA */
+      .header-layout-1 .site-header .menu-logo{
+          width: 166px;
+          position:relative;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  
+      
+      /* HEADER AYAR TABLET */
+      .site-header .header-row{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      
+      /* HEADER AYAR TABLET */
+      .site-header .site-logo{
+          margin: 0 !important;
+      }
+      
+      /* HEADER AYAR TABLET */
+              .header-layout-1 .site-header .menu-extra .menu-item-search{
+          display:inline-block !important;
+          position: absolute;
+          left: 65px;	
+              
+      }	
+      /* HEADER AYAR TABLET */
+      .header-layout-1 .site-header .menu-extra .menu-item-sidebar{
+          position: absolute;
+          left: 0;
+      }
+  
+      /* HEADER AYAR TABLET */
+      .site-header .menu-extra .menu-item-account{
+          height: 31px;
+      }
+      /* HEADER AYAR TABLET */
+      .site-header .menu-extra > ul:not(.no-flex){
+          display:flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      
+      /* POPUP AYARLARI */
+  div[id*="popmake-"] {
+      border: 5px solid black !important;
+      padding: 0px !important;
+      width:374px !important;
+      height:374px !important;
+      border-color: #ffbb99 !important;
+  }
+  
+  /* POPUP OVERLAY RENK */
+  .pum-theme-4856, .pum-theme-lightbox{
+      background-color: rgba(0,0,0, 0.35);
+  }
+  
+  /* POPUP CLOSE BUTTON */
+  .popmake-close{
+      font-size: 16px !important;
+      background-color:#ffbb99
+   !important;
+      color: black !important;
+      border-color: black !important;
+  }
+  
+      
+      /* ULKE BAYRAGI WIDGET TABLET */
+      #selectlang{
+          top:0px;
+          right:0px;
+      }
+      .noned{
+          right: 4px;
+          border: 1px solid black;
+      }
+      
+                  /* CART SAYFASI DELETE BUTTONU */
+      .woocommerce-cart-form .shop_table tbody tr td a:last-child{
+          border:1px solid black;
+          border-radius: 0 !important;
+          transform:translateX(20px);
+          display:inline-block !important;
+          padding-left: 0 !important;
+          transform:translateX(0px);
+          font-size:12px !important;
+          padding: 0.5rem !important;
+          color:black !important;
+      }
+  
+          
+                  /* WOOCOMMERCE CHECKOUT FORUM YAZI BOYUTU TABLET */
+      #post-20 form .woocommerce-billing-fields h3{
+          font-size:14px;
+      }
+              /* WOOCOMMERCE CHECKOUT FORUM YAZI BOYUTU TABLET */
+      #post-20 form .woocommerce-billing-fields p label{
+          font-size:11px;
+      }
+      /* WOOCOMMERCE CHECKOUT FORUM YAZI BOYUTU TABLET */
+      #order_review_heading {
+          margin: 20px 0;
+          font-size:16px;
+      }
+      
+      /* MY ACCOUNT SAYFASI KAYDIRILABİLİR MENÜ TABLET*/
+      .woocommerce-MyAccount-navigation ul li a{
+          font-size:11px !important;
+      }
+          /* MY ACCOUNT SAYFASI KAYDIRILABİLİR MENÜ TABLET*/
+      .woocommerce-MyAccount-navigation{
+      height:40px;
+      margin-bottom:30px !important;
+      }
+  
+      
+  /* KATEGORI ISIMLERI TABLET*/
+  #content #page-header-catalog .page-header-title h1{
+      font-size:19px;
+  }
+  /* KATEGORI ISIMLERI TABLET*/
+  #content #page-header-catalog .breadcrumbs{
+      font-size:9px;
+  }
+      /* HAKKIMIZDA BÖLÜMÜ TABLET*/
+  #customheader{
+      transform:translateY(-30px);
+      font-size:20px !important;
+      padding-bottom:6px;
+      border-bottom:1px solid #ebebe0;
+      
+  }
+      /* HAKKIMIZDA GÖRSEL TABLET*/
+  #aboutimg{
+      transform:translateY(-24px);
+      width:768px;
+  }
+      /* FAVORİLERİM BÖLÜMÜ BASLIK TABLET*/
+  #yith-wcwl-form h2{
+      font-size:14px;
+      background-color: #ffe6e6;
+  }
+          /* WOOCOMMERCE ALERT AYARI TABLET*/
+   .woocommerce-info a,
+   .woocommerce-message a,
+   .woocommerce-error a
+  {
+      border-top-color:black;
+      font-size:10px !important;
+      padding:0 15px !important;
+  }
+  }
+  
+  /* WOOCOMMERCE ALERT AYARI */
+   .woocommerce-info,
+   .woocommerce-message,
+   .woocommerce-error
+  {
+      margin-bottom:20px !important;
+      border-top-color:black;
+  }
+  /* WOOCOMMERCE ALERT AYARI */
+   .woocommerce-info,
+   .woocommerce-message,
+   .woocommerce-error{
+      background-color: #ffe6e6;
+  }
+  
+  /* WOOCOMMERCE ALERT AYARI */
+  .woocommerce-info:before,
+   .woocommerce-message:before,
+   .woocommerce-error:before{
+      color: black;
+  }
+  
+  @media (max-width:480px){
+      
+      /* HEADER MOBİL AYAR */
+      .site-header .menu-extra .menu-item-account{
+          position: absolute;
+          top:0;
+          right:0;
+          transform: translateY(-5px);
+          margin: 0 4px 0 0;
+      }
+      /* HEADER MOBİL AYAR */
+      .site-header .menu-extra .menu-item-account i {
+          font-size: 16px !important;
+      }
+      /* HEADER MOBİL AYAR */
+      #selectlang{
+          margin-right: 25px !important;
+          top: 1px ;
+          right: 1px ;
+      }
+      /* HEADER MOBİL AYAR */
+      .menu-extra.s-right .extra-menu-item{
+          padding-left: 11px;
+      }
+      
+      .menu-extra.s-right ul li i{
+          font-size: 21px !important;
+      }
+      
+      .header-layout-1 .site-header .menu-extra .menu-item-search{
+          left: 37px;
+      }
+      
+      
+      
+      /* POPUP AYARLARI */
+  div[id*="popmake-"] {
+      border: 5px solid black !important;
+      padding: 0px !important;
+      width:358px !important;
+      height:358px !important;
+      border-color: #ffbb99 !important;
+  }
+  
+  /* POPUP OVERLAY RENK */
+  .pum-theme-4856, .pum-theme-lightbox{
+      background-color: rgba(0,0,0, 0.35);
+  }
+  
+  /* POPUP CLOSE BUTTON */
+  .popmake-close{
+      font-size: 16px !important;
+      background-color:#ffbb99
+   !important;
+      color: black !important;
+      border-color: black !important;
+  }
+  
+      
+      /* SALE BADGE YAZI BOYUTU */
+  .ribbons .onsale.ribbon{
+      font-size:13px;
+      margin-top:2px !important;
+              padding:2px 16px !important;
+  }
+      
+      
+  
+          /* HAKKIMIZDA BÖLÜMÜ MOBİL*/
+  #customheader{
+      transform:translateY(-10px);
+      font-size:17px !important;
+      padding-bottom:5px;
+      border-bottom:1px solid #e1e1d0;
+      
+  }
+      /* HAKKIMIZDA GÖRSEL MOBİL*/
+  #aboutimg{
+      transform:translateY(-14px);
+      width:768px;
+  }
+      /* FAVORİLERİM BÖLÜMÜ BASLIK MOBİL*/
+  #yith-wcwl-form h2{
+      font-size:13px;
+      background-color: #ffe6e6;
+  }
+          /* FOOTER SOSYAL MEDYA COPYRIGHT DUZENİ TABLET */
+       .footer-copyright-row .footer-1{
+          transform:translateY(50px);
+          font-size:11px;
+      }
+      /* FOOTER SOSYAL MEDYA COPYRIGHT DUZENİ TABLET */
+       .footer-copyright-row .footer-2{
+          transform:translateY(-34px);
+      }
+      /* FOOTER SOSYAL MEDYA GÖRSEL AYARI */
+  .social-spec ul li a img{
+      width:26px;
+      border:1px solid black;
+      border-radius: 50%;
+  }
+  
+  
+  }
+  
+  #main .checkout_coupon{
+      display:block !important;
+  }
+  
+  .woocommerce-form-coupon-toggle .woocommerce-info{
+      pointer-events: none;
+  }
+  
